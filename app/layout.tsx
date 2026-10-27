@@ -19,13 +19,15 @@ export const metadata : Metadata = {
   description: "Used to help new hires with their on boarding process, act as a supplement for regular training",
 };
 
+//links for navbar
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "Leaderboard", href: "/leaderboard" },
+  { name: "Useful Links", href: "/useful" },
   { name: "Upload", href: "/upload" },
   { name: "Employees", href: "/employees" },
 ]
 
+//layout for the home page
 export default function RootLayout({
   children,
 }: Readonly<{
